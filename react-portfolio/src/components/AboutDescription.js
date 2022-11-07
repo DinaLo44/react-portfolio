@@ -12,7 +12,7 @@ const AboutDescription = () => {
         <p>I have a bachelor's degree in International Relations by the Autonomous University of Tamaulipas,
         the state where I am from. I have experience working in the diplomatic and legal fields after I worked as a consular officer for 8 years at the Mexican
         Consulate in Salt Lake City, Utah, and as an immigration paralegal for almost 4 years. After all the valuable experience I have gained, 
-        I decided to apply my skills in a field where I could implement them in a more creative way and contribute at a higher scale by creating applications that will produce
+        I decided to apply my skills in a field where I could contribute in a more creative way and at a higher scale by creating applications that will produce
         a positive impact in people's lives. I want to be part of solutions to help people and organizations to fulfill their goals!. 
  
         </p>
