@@ -1,0 +1,14 @@
+.footer{
+    width: 100%;
+    padding: 25px 0;
+    background-color: white;
+    
+}
+
+.footer-section{
+    max-width: 1140px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}

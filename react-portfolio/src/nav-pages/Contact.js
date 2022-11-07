@@ -1,14 +1,14 @@
 import React from 'react';
 import Nav from "../components/Nav";
-
+import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <>
+  <>
     <div><Nav/></div>
-    <div>Contact</div>
-    </>
-    )
+    <div><Footer/></div>
+  </>
+  )
 }
 
-export default Contact
+export default Contact;
