@@ -6,12 +6,9 @@ import React from 'react';
 const Nav = () => {
   return (
     <div className= "header">
-    <h1>
-        Welcome to my Portfolio
-    </h1>
-            <ul className="nav-menu-list">
+        <ul className="nav-menu-list">
             <li>
-                <Link to="/about">About Me</Link>
+                <Link to="/">About Me</Link>
             </li>
             <li>
                 <Link to="/portfolio">Portfolio</Link>
