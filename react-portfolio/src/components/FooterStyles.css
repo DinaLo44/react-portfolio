@@ -1,12 +1,15 @@
 .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    padding: 25px 0;
     background-color: white;
-    
+    padding: 30px;
+     
 }
 
 .footer-section{
-    max-width: 1140px;
+    max-width: 1000px;
     margin:auto;
     display:flex;
     justify-content: center;

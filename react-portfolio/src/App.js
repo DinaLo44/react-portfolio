@@ -5,6 +5,11 @@ import Portfolio from "./nav-pages/Project";
 import Contact from "./nav-pages/Contact";
 import Resume from "./nav-pages/Resume";
 import {Routes, Route} from 'react-router-dom';
+//Added lines 9 to 13 from the REACT documentation website
+// import { createRoot } from 'react-dom/client';
+// const container = document.getElementById('app');
+// const root = createRoot(container); 
+// root.render(<App tab="home" />);
 
 function App() {
   return (
