@@ -13,7 +13,6 @@
 .about-left{
 margin: 100px 100px;
 flex:1;
-display: inline-block;
 width: 30%;
 float: left;
 
@@ -33,6 +32,5 @@ border-radius: 25px;
     border-radius:25px;
     width: 40%;
     flex:1;
-    display:inline-block;
     float: right;
 }
