@@ -8,11 +8,13 @@
 }
 
 body {
-    background:burlywood;
+    background-image: url('./images/background.jpg');
+    background-size:cover;
 }
 
 h1, h4, p, a {
-    color: black;
+    color:darkgreen;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -20,7 +22,7 @@ ul{
     list-style-type: none;
 }
 
-.buttons{
+/* .buttons{
     cursor: pointer;
     font-size: 25px;
     font-weight: 600;
@@ -39,4 +41,4 @@ ul{
 .button:hover{
     background: grey;
     transition: 0.5s;
-}
+} */

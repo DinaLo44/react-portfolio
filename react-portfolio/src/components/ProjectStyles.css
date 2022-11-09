@@ -7,7 +7,8 @@
     height:100%;
     justify-content:center;
     text-align:center;
-    display:inline-block
+    display:inline-block;
+    color: darkgreen;
 }
 
 .projects-list{
@@ -29,4 +30,23 @@ text-align:center;
     margin:auto;
     
 
+}
+
+button{
+    background:bisque;
+    border-color: darkgreen;
+    border-radius:5px;
+    padding: 5px;
+    /* color:white; */
+    
+}
+
+button:hover{
+    background: white;
+    transition: 0.5s;
+   
+}
+
+.project-title{
+    /* background:bisque; */
 }

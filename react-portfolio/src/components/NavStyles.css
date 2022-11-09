@@ -3,6 +3,7 @@ padding: 2rem;
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 }
 
 .nav-menu-list{
@@ -17,13 +18,14 @@ align-items: center;
 
 .nav-menu-list li a {
 font-size: 25px;
-font-weight:200;
+font-weight:500;
 }
 
 .nav-menu-list li a:hover {
     background: white;
     transition: 0.5s;
     border-radius: 8px;
+    padding: 5px;
     }
 
 @media screen and (max-width: 1024px) {
