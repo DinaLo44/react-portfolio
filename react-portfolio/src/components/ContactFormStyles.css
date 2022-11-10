@@ -1,13 +1,49 @@
-label{
-    color:darkgreen;
-
-}
 
 .contact-form{
     display:flex;
     flex-direction:column;
     padding: 4rem 1rem;
-    /* margin:auto; */
-    max-width:600px;
+    margin:auto;
+    max-width:800px;
+    overflow: hidden;
 
+}
+
+/*Source: https://stackoverflow.com/questions/13755400/trouble-aligning-contact-form*/
+/*https://webdesign.tutsplus.com/tutorials/how-to-build-web-form-layouts-with-css-grid--cms-28776*/
+label{
+    float:left;
+    width:200px;
+    color:darkgreen;
+    padding-right: 24px;
+    padding-left:100px;
+    font-weight: bold;
+       
+}
+
+form input, form textarea{
+float:left;
+width: calc(100% - 200px);
+padding:5px;
+margin:5px;
+margin-left:100px;
+margin-bottom:20px;
+}
+
+.submit-button{
+width:calc(100%-200px);
+position:relative;
+margin-top: -43px;
+margin-left:350px;
+background:white;
+border-color: darkgreen;
+border-radius:5px;
+padding: 5px;
+font-weight: 600;
+}
+
+.submit-button:hover{
+    background:wheat;
+    transition: 0.5s;
+   
 }
