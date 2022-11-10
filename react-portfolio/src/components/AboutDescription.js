@@ -10,7 +10,7 @@ const AboutDescription = () => {
         <div className="about-right">
         <h1>Welcome to my Portfolio Website!</h1>
         <br></br>
-        <p>Hey there! I am Dina Brady. I am originary from Mexico and I am currently enrolled in a Full Stack Web Development Certification at the University of Utah. </p>
+        <p>Hello! I am Dina, I am originary from Mexico and I am currently enrolled in a Full Stack Web Development Certification at the University of Utah. </p>
         <br></br>
         <p>I have a bachelor's degree in International Relations by the Autonomous University of Tamaulipas,
         the state where I am from. I have experience working in the diplomatic and legal fields after I worked as a consular officer for 8 years at the Mexican

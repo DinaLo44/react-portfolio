@@ -7,6 +7,7 @@ const Nav = () => {
   return (
     <div className= "header">
         <ul className="nav-menu-list">
+        <h1>Dina Brady</h1>
             <li>
                 <Link to="/">About Me</Link>
             </li>

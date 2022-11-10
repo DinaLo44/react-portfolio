@@ -9,7 +9,6 @@
 }
 
 
-
 .about-left{
 margin: 100px 100px;
 flex:1;
@@ -22,13 +21,13 @@ float: left;
 img{
 border: 15px solid white;
 width: 110%;
-border-radius: 25px;
+border-radius: 50px;
 }
 
 .about-right{
     margin:100px;
-    border: 15px solid white;
-    padding: 15px;
+    border: 15px  white;
+    padding: 10px;
     border-radius:25px;
     width: 40%;
     flex:1;
