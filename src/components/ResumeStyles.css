@@ -1,0 +1,38 @@
+.container{
+    display:block;
+    text-align:center;
+}
+
+.title{
+    font-weight:700;
+    justify-content:center;
+    align-items:center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+
+table{
+    margin:auto;
+    color:darkgreen;
+    border:  5px solid darkgreen;
+}
+
+th, td{
+    padding: 10px;
+    text-align:center;
+    row-gap: 4;
+    
+}
+
+a{
+    text-decoration:underline;
+}
+
+a:hover{
+    background-color:white;
+    transition:0.5;
+    padding: 1px;
+    border-radius: 5px;;
+}
+

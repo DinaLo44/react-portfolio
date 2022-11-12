@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from "../components/Header";
 import Nav from "../components/Nav";
+import MyResume from "../components/MyResume";
 import Footer from "../components/Footer";
 
 const Resume = () => {
@@ -8,7 +9,8 @@ const Resume = () => {
   <>
     <div>
     <Header/>
-    <Nav/>  
+    <Nav/> 
+    <MyResume/> 
     <Footer/>
     </div>
   </>
