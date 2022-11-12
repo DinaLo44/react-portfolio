@@ -5,9 +5,8 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <div className= "header">
+    <div className= "nav-section">
         <ul className="nav-menu-list">
-        <h1>Dina Brady</h1>
             <li>
                 <Link to="/">About Me</Link>
             </li>
