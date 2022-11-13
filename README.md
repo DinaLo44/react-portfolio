@@ -17,12 +17,15 @@ Finally, in the "Resume" section, the user can see a table that contains my tech
 # Technologies
 The technologies I used in this project are React and Node/NPM packages.
 
-# Portfolio Appearance:
+# Portfolio's Appearance:
+![portfolio.png](https://github.com/DinaLo44/react-portfolio/blob/main/src/images/portfolio.png)
+
+# Link of the deployed website:
 
 
-
-# GitHub repository link
+# GitHub repository link:
 https://github.com/DinaLo44/react-portfolio
 
-
+# Additonal Note
+Background Photo by <ins>Elena Joland</ins> on <ins>UnSplash</ins>
 
