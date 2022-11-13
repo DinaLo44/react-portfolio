@@ -26,6 +26,6 @@ The technologies I used in this project are React and Node/NPM packages.
 # GitHub repository link:
 https://github.com/DinaLo44/react-portfolio
 
-#Additonal Note
-Background Photo by <ins>Elena Joland<ins> on <ins>UnSplash<ins>
+# Additonal Note
+Background Photo by <ins>Elena Joland</ins> on <ins>UnSplash</ins>
 
