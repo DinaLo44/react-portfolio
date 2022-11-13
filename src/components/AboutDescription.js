@@ -8,7 +8,7 @@ const AboutDescription = () => {
     <div className="about-section">
       <div className="about-container"> 
         <div className="about-right">
-        <h1>Welcome to my Portfolio Website!</h1>
+        <h1>Welcome to my Website!</h1>
         <br></br>
         <p>Hello! I am Dina, I am originary from Mexico and I am currently enrolled in a Full Stack Web Development Certification at the University of Utah. </p>
         <br></br>

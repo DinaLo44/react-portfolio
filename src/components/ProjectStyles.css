@@ -1,20 +1,11 @@
 .project-title{
-    /* border: 15px solid white; */
-    
     padding: 10px;
     margin: 15px;
-    /* background-color: white ; */
-    /* background-color: rgba(255,255,255,0.5); */
-    /* border-radius:25px; */
     font-weight: 700;
-    
-    box-shadow:white;
-
 }
+
 hr{
-    /* border:10px solid rgba(255,255,255,0.5); */
     border:10px solid white;
-    
 }
 
 .projects-section{
@@ -33,7 +24,6 @@ hr{
 .projects-list{
 width: 100%;
 height:50%;
-/* display:flex; */
 justify-content:center;
 align-items:center;
 text-align:center;
@@ -47,23 +37,17 @@ text-align:center;
     align-items:center;
     text-align:center;
     margin:auto;
-    
-
 }
 
 button{
-    background:white;
-    border-color: darkgreen;
+    border: solid darkgreen;
     border-radius:5px;
     padding: 5px;
     font-weight: 600;
-    /* color:white; */
-    
 }
 
 button:hover{
-    background:wheat;
-    transition: 0.5s;
-   
+    background:white;
+    transition: 0.5s;  
 }
 
