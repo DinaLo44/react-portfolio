@@ -1,33 +1,30 @@
-import React from 'react'
+import React from "react";
 import "./FooterStyles.css";
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
-
 const Footer = () => {
   return (
-    <div className= "footer">
-        <div className="footer-section">
-          <p>Visit me in GitHub, LinkedIn and StackOverflow: </p> 
+    <div className="footer">
+      <div className="footer-section">
+        <p>Visit me in GitHub, LinkedIn and StackOverflow: </p>
         <a href="https://github.com/DinaLo44">
-        <FaGithub
-        size= {30}
-        style={{color:'darkgreen', margin: '10px'}} 
-        /></a>
-        <a href="https://www.linkedin.com/in/dina-brady-8694b423b/"> 
-        <FaLinkedin
-        size= {30}
-        style={{color:'darkgreen', margin: '10px'}}
-        />
+          <FaGithub size={30} style={{ color: "darkgreen", margin: "10px" }} />
+        </a>
+        <a href="https://www.linkedin.com/in/dina-brady-8694b423b/">
+          <FaLinkedin
+            size={30}
+            style={{ color: "darkgreen", margin: "10px" }}
+          />
         </a>
         <a href="https://stackoverflow.com/users/19149452/dina-brady">
           <FaStackOverflow
-          size={30}
-          style={{color:'darkgreen', margin: '10px'}}
+            size={30}
+            style={{ color: "darkgreen", margin: "10px" }}
           />
         </a>
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
