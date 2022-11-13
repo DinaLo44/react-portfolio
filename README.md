@@ -19,7 +19,7 @@ The technologies I used in this project are React and Node/NPM packages.
 
 
 # GitHub repository link
-
+https://github.com/DinaLo44/react-portfolio
 
 
 
