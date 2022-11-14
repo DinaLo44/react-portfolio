@@ -1,21 +1,17 @@
 import React from "react";
 import "./ContactFormStyles.css";
-// import "./HandleContactForm";
+
 import { useState } from "react";
 
 const ContactForm = () => {
   const [contactName, setContactName] = useState("");
   const [contactEmail, setContactEmail] = useState("");
+  const [contactMessage, setContactMessage] = useState("");
 
-  const handleInputField = (e) => {
-    const { name, value } = e.target;
-    return name === "contactName"
-      ? setContactName(value)
-      : setContactEmail(value);
-  };
 
-  const handleContactFormSubmission = (e) => {
+  function handleSubmit(e) {
     e.preventDefault();
+    console.log(contactName, contactEmail);
     if (contactName === "") {
       alert("Name is a required field");
     } else if (contactEmail === "") {
@@ -23,40 +19,32 @@ const ContactForm = () => {
     }
     setContactName("");
     setContactEmail("");
-  };
+  }
   return (
     <div className="contact-form">
-      <form>
-        <label
+      <form onSubmit={handleSubmit}>
+        <label name="contactName">Name</label>
+        <input
+          type="text"
+          placeholder="Type your name"
           value={contactName}
-          name="contactName"
-          onChange={handleInputField}
-        >
-          Name
-        </label>
-        <input type="text" placeholder="Type your name"></input>
-        <label
+          onChange={(e) => setContactName(e.target.value)}
+        />
+        <label name="contactEmail">E-mail</label>
+        <input
+          type="email"
+          placeholder="Type your email"
           value={contactEmail}
-          name="contactEmail"
-          onChange={handleInputField}
-        >
-          E-mail
-        </label>
-        <input type="email" placeholder="Type your email"></input>
+          onChange={(e) => setContactEmail(e.target.value)}
+        />
         <label>Message</label>
-        <textarea
+        <textarea value= {contactMessage} onChange={(e) => setContactMessage(e.target.value)}
           rows="10"
           placeholder="Type your message inside this box"
         ></textarea>
-        {/* <a href="mailto:dinalo.brady@gmail.com"> */}
-        <button
-          type="submit"
-          onClick={handleContactFormSubmission}
-          className="submit-button"
-        >
+        <button type="submit" className="submit-button" disabled={!contactMessage || !contactEmail || !contactEmail}>
           Submit
         </button>
-        {/* </a> */}
       </form>
     </div>
   );
