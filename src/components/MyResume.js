@@ -8,42 +8,54 @@ const Resume = () => {
         <h1 className="title">Technical Skills</h1>
         <div className="table-position">
           <table>
-            <tr>
-              <th>Platforms</th>
-              <th>Software Packages</th>
-              <th>Frontend</th>
-              <th>Backend</th>
-            </tr>
-            <tr>
-              <td>GitHub</td>
-              <td>Microsoft Office</td>
-              <td>HTML5</td>
-              <td>Node</td>
-            </tr>
-            <tr>
-              <td>GitLab</td>
-              <td>Outlook</td>
-              <td>CSS3</td>
-              <td>Express</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>Zoom</td>
-              <td>JQuery</td>
-              <td>MySQL</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td>Bootstrap</td>
-              <td>NoSQL(MongoDB)</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td>React</td>
-              <td>MERN</td>
-            </tr>
+            <tbody>
+              <tr>
+                <th>Platforms</th>
+                <th>Software Packages</th>
+                <th>Frontend</th>
+                <th>Backend</th>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>GitHub</td>
+                <td>Microsoft Office</td>
+                <td>HTML5</td>
+                <td>Node</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>GitLab</td>
+                <td>Outlook</td>
+                <td>CSS3</td>
+                <td>Express</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td></td>
+                <td>Zoom</td>
+                <td>JQuery</td>
+                <td>MySQL</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Bootstbodyap</td>
+                <td>NoSQL(MongoDB)</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>React</td>
+                <td>MERN</td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <br></br>
