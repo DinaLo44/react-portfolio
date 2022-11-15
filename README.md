@@ -15,7 +15,7 @@ In the "Contact" section, the user can fill out a form to provide its name, emai
 Finally, in the "Resume" section, the user can see a table that contains my technical skills and a link to download my resume if desired.
 
 # Technologies
-The technologies I used in this project are React and Node/NPM packages.
+The technologies I used in this project are React, JavaScript, HTML, CSS, and Node/NPM packages.
 
 # Portfolio's Appearance:
 ![portfolio.png](https://github.com/DinaLo44/react-portfolio/blob/main/src/images/portfolio.png)
