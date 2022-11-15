@@ -4,7 +4,7 @@
 This project consisted in the creation of a polished portfolio to demostrate the work I have been performing during the last 6 months. 
 I enjoyed doing this project because it helped me to strengthen the skills I have learned about developing single web applications with React. 
 
-When the portfolio website is loaded, the user will see the "About Me" section where a navigation bar is displayed with the name of the different components of he website. 
+When the portfolio website is loaded, the user will see the "About Me" section where a navigation bar is displayed with the name of the different components of the website. 
 
 In the footer the user can click on the icons of the different platforms where I am at (GitHub, LinkedIn and StackOverflow).
 
