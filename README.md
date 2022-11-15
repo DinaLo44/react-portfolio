@@ -21,7 +21,7 @@ The technologies I used in this project are React and Node/NPM packages.
 ![portfolio.png](https://github.com/DinaLo44/react-portfolio/blob/main/src/images/portfolio.png)
 
 # Link of the deployed website:
-
+https://dinalo44.github.io/react-portfolio/
 
 # GitHub repository link:
 https://github.com/DinaLo44/react-portfolio
