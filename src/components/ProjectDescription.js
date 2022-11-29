@@ -8,6 +8,36 @@ const Project = () => {
         <br></br>
         <br></br>
         <div className="projects-list">
+          <h2>Prep Starts Now</h2>
+          <br></br>
+          <div className="card">
+            <img
+              alt="Prep Starts Now project"
+              src={require("../images/prep-starts-now.jpg")}
+            ></img>
+          </div>
+          <h3>Visit the GitHub repository here:</h3>
+          <br></br>
+          <button>
+            <a href="https://github.com/benbushman98/Prep-Start-Now">
+              CLICK ON ME!
+            </a>
+          </button>
+          <br></br>
+          <br></br>
+          <h3>Visit the deployed website here:</h3>
+          <br></br>
+          <button>
+            <a href="http://www.prepstartsnow.com">
+              CLICK ON ME!
+            </a>
+          </button>
+        </div>
+        <br></br>
+        <hr></hr>
+        <br></br>
+        <br></br>
+        <div className="projects-list">
           <h2>Regex GitHub Gist</h2>
           <br></br>
           <div className="card">
