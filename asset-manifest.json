@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.37c765e9.css",
-    "main.js": "/react-portfolio/static/js/main.3054cf48.js",
-    "static/media/cuddly-robot.png": "/react-portfolio/static/media/cuddly-robot.410f757cf1c9c735a5fd.png",
-    "static/media/prep-starts-now.jpg": "/react-portfolio/static/media/prep-starts-now.8afad6634dc41ca572a6.jpg",
-    "static/media/bestoutdoorplacesutah.png": "/react-portfolio/static/media/bestoutdoorplacesutah.b9f90d1490fb01e7fccf.png",
+    "main.css": "/react-portfolio/static/css/main.f6216115.css",
+    "main.js": "/react-portfolio/static/js/main.819fefce.js",
     "static/media/background.jpg": "/react-portfolio/static/media/background.9b125b68a802ce1a4904.jpg",
     "static/media/myphoto.jpg": "/react-portfolio/static/media/myphoto.bc0c6c3625cf66ee6547.jpg",
     "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.701a14968cf6ed219735.png",
+    "static/media/team-profile-generator.png": "/react-portfolio/static/media/team-profile-generator.1a794b78dd22d58a7051.png",
     "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.186b17dc37ee67c9e69c.png",
-    "static/media/Dina Brady-Resume Download1.pdf": "/react-portfolio/static/media/Dina Brady-Resume Download1.b7bb99351212f0c98fe8.pdf",
-    "static/media/gitsurveys.png": "/react-portfolio/static/media/gitsurveys.30631cea27b08b75fefc.png",
+    "static/media/Dina Brady-Resume.pdf": "/react-portfolio/static/media/Dina Brady-Resume.6559399e5a7d2d7b1416.pdf",
+    "static/media/NoSQL-Social-Network-API.PNG": "/react-portfolio/static/media/NoSQL-Social-Network-API.5c2e3f0f25accb512203.PNG",
     "static/media/regex-gist.png": "/react-portfolio/static/media/regex-gist.d852d66c3649cdcdfebb.png",
+    "static/media/employee-tracker-app.PNG": "/react-portfolio/static/media/employee-tracker-app.b4360200af5a12e19199.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.37c765e9.css.map": "/react-portfolio/static/css/main.37c765e9.css.map",
-    "main.3054cf48.js.map": "/react-portfolio/static/js/main.3054cf48.js.map"
+    "main.f6216115.css.map": "/react-portfolio/static/css/main.f6216115.css.map",
+    "main.819fefce.js.map": "/react-portfolio/static/js/main.819fefce.js.map"
   },
   "entrypoints": [
-    "static/css/main.37c765e9.css",
-    "static/js/main.3054cf48.js"
+    "static/css/main.f6216115.css",
+    "static/js/main.819fefce.js"
   ]
 }
