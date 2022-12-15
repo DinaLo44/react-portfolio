@@ -10,18 +10,17 @@ const AboutDescription = () => {
           <h1>Welcome to my Website!</h1>
           <br></br>
           <p>
-            Hello! I am Dina, I am originary from Mexico and I am currently
-            enrolled in a Full Stack Web Development Certification at the
-            University of Utah.{" "}
+            Hello! I am Dina, a Junior Web Developer who recently earned a Full
+            Stack Web Development Certificate from the University of Utah.{" "}
           </p>
           <br></br>
           <p>
-            I have a bachelor's degree in International Relations by the
-            Autonomous University of Tamaulipas, the state where I am from. I
-            have experience working in the diplomatic and legal fields after I
-            worked as a consular officer for 8 years at the Mexican Consulate in
-            Salt Lake City, Utah, and as an immigration paralegal for almost 4
-            years.
+            I am originary from Mexico where I earned a bachelor's degree in
+            International Relations from the Autonomous University of
+            Tamaulipas. I have experience working in the diplomatic and legal
+            fields after I worked as a consular officer for 8 years at the
+            Mexican Consulate in Salt Lake City, Utah, and as an immigration
+            paralegal for almost 4 years.
           </p>
           <br></br>
           <p>

@@ -8,33 +8,66 @@ const Project = () => {
         <br></br>
         <br></br>
         <div className="projects-list">
-          <h2>Prep Starts Now</h2>
+          <h2>Team Profile Generator</h2>
           <br></br>
           <div className="card">
             <img
-              alt="Prep Starts Now project"
-              src={require("../images/prep-starts-now.jpg")}
+              alt="team-profile-generator project"
+              src={require("../images/team-profile-generator.png")}
             ></img>
           </div>
           <h3>Visit the GitHub repository here:</h3>
           <br></br>
           <button>
-            <a href="https://github.com/benbushman98/Prep-Start-Now">
-              CLICK ON ME!
-            </a>
-          </button>
-          <br></br>
-          <br></br>
-          <h3>Visit the deployed website here:</h3>
-          <br></br>
-          <button>
-            <a href="http://www.prepstartsnow.com">
-              CLICK ON ME!
+            <a href="https://github.com/DinaLo44/team-profile-generator">
+              CLICK ON ME
             </a>
           </button>
         </div>
         <br></br>
-        <hr></hr>
+        <hr className="division"></hr>
+        <br></br>
+        <br></br>
+        <div className="projects-list">
+          <h2>NoSQL Social Network API</h2>
+          <br></br>
+          <div className="card">
+            <img
+              alt="NoSQL-Social-Network-API project"
+              src={require("../images/NoSQL-Social-Network-API.PNG")}
+            ></img>
+          </div>
+          <h3>Visit the GitHub repository here:</h3>
+          <br></br>
+          <button>
+            <a href="https://github.com/DinaLo44/NoSQL-social-network-api">
+              CLICK ON ME
+            </a>
+          </button>
+        </div>
+        <br></br>
+        <hr className="division"></hr>
+        <br></br>
+        <br></br>
+        <div className="projects-list">
+          <h2>Employee Tracker App</h2>
+          <br></br>
+          <div className="card">
+            <img
+              alt="NoSQL-Social-Network-API project"
+              src={require("../images/employee-tracker-app.PNG")}
+            ></img>
+          </div>
+          <h3>Visit the GitHub repository here:</h3>
+          <br></br>
+          <button>
+            <a href="https://github.com/DinaLo44/employee-tracker-app">
+              CLICK ON ME
+            </a>
+          </button>
+        </div>
+        <br></br>
+        <hr className="division"></hr>
         <br></br>
         <br></br>
         <div className="projects-list">
@@ -50,100 +83,12 @@ const Project = () => {
           <br></br>
           <button>
             <a href="https://gist.github.com/DinaLo44/402fa7216eb7dba9eb4873cd0e2ac7d1">
-              CLICK ON ME!
+              CLICK ON ME
             </a>
           </button>
         </div>
         <br></br>
-        <hr></hr>
-        <br></br>
-        <br></br>
-        <div className="projects-list">
-          <h2>GitSurveys</h2>
-          <br></br>
-          <div className="card">
-            <img
-              alt="GitSurveys homepage"
-              src={require("../images/gitsurveys.png")}
-            ></img>
-          </div>
-          <h3>Visit the GitHub repository here:</h3>
-          <br></br>
-          <button>
-            <a href="https://github.com/benbushman98/gitsurveys">
-              CLICK ON ME!
-            </a>
-          </button>
-          <br></br>
-          <br></br>
-          <h3>Visit the deployed website here:</h3>
-          <br></br>
-          <button>
-            <a href="https://www.gitsurveys.com/">CLICK ON ME!</a>
-          </button>
-        </div>
-        <br></br>
-        <hr></hr>
-        <br></br>
-        <br></br>
-        <div className="projects-list">
-          <h2>Utah Outdoors</h2>
-          <br></br>
-          <div className="card">
-            <img
-              alt="Regex gist project"
-              src={require("../images/bestoutdoorplacesutah.png")}
-            ></img>
-          </div>
-          <h3>Visit the GitHub repository here:</h3>
-          <br></br>
-          <button>
-            <a href="https://github.com/DinaLo44/miniproject-utahoutdoors">
-              CLICK ON ME!
-            </a>
-          </button>
-          <br></br>
-          <br></br>
-          <h3>Visit the deployed GitHub page here:</h3>
-          <br></br>
-          <button>
-            <a href="https://dinalo44.github.io/miniproject-utahoutdoors/">
-              CLICK ON ME!
-            </a>
-          </button>
-        </div>
-        <br></br>
-        <hr></hr>
-        <br></br>
-        <br></br>
-        <div className="projects-list">
-          <h2>Cuddly Robot Food Crawl</h2>
-          <br></br>
-          <div className="card">
-            <img
-              alt="Cuddly-Robot homepage"
-              src={require("../images/cuddly-robot.png")}
-            ></img>
-          </div>
-          <h3>Visit the GitHub repository here:</h3>
-          <br></br>
-          <button>
-            <a href="https://github.com/benbushman98/cuddly-robot">
-              CLICK ON ME!
-            </a>
-          </button>
-          <br></br>
-          <br></br>
-          <h3>Visit the deployed website here:</h3>
-          <br></br>
-          <button>
-            <a href="https://benbushman98.github.io/cuddly-robot/">
-              CLICK ON ME!
-            </a>
-          </button>
-        </div>
-        <br></br>
-        <hr></hr>
+        <hr className="division"></hr>
         <br></br>
         <br></br>
         <div className="projects-list">
@@ -159,7 +104,7 @@ const Project = () => {
           <br></br>
           <button>
             <a href="https://github.com/DinaLo44/weather-dashboard-4travelers">
-              CLICK ON ME!
+              CLICK ON ME
             </a>
           </button>
           <br></br>
@@ -168,12 +113,12 @@ const Project = () => {
           <br></br>
           <button>
             <a href="https://dinalo44.github.io/weather-dashboard-4travelers/">
-              CLICK ON ME!
+              CLICK ON ME
             </a>
           </button>
         </div>
         <br></br>
-        <hr></hr>
+        <hr className="division"></hr>
         <br></br>
         <br></br>
         <div className="projects-list">
@@ -188,14 +133,14 @@ const Project = () => {
           <h3>Visit the GitHub repository here:</h3>
           <br></br>
           <button>
-            <a href="https://github.com/DinaLo44/code-quiz-js">CLICK ON ME!</a>
+            <a href="https://github.com/DinaLo44/code-quiz-js">CLICK ON ME</a>
           </button>
           <br></br>
           <br></br>
           <h3>Visit the deployed website here:</h3>
           <br></br>
           <button>
-            <a href="https://dinalo44.github.io/code-quiz-js/">CLICK ON ME!</a>
+            <a href="https://dinalo44.github.io/code-quiz-js/">CLICK ON ME</a>
           </button>
         </div>
         <br></br>

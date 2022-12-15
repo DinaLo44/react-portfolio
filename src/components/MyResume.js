@@ -43,8 +43,8 @@ const Resume = () => {
             <tbody>
               <tr>
                 <td></td>
-                <td></td>
-                <td>Bootstbodyap</td>
+                <td>Visual Studio Code</td>
+                <td>Bootstrap</td>
                 <td>NoSQL(MongoDB)</td>
               </tr>
             </tbody>
@@ -61,12 +61,14 @@ const Resume = () => {
         <br></br>
         <br></br>
         <h4>Feel free to download my resume here:</h4>
-        <a
-          href={require("../images/Dina Brady-Resume Download1.pdf")}
-          download="Dina Brady's Resume"
-        >
-          Dina Brady's Resume
-        </a>
+        <button>
+          <a
+            href={require("../images/Dina Brady-Resume.pdf")}
+            download="Dina Brady's Resume"
+          >
+            Dina Brady's Resume
+          </a>
+        </button>
         <br></br>
         <br></br>
         <br></br>

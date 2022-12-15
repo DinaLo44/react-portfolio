@@ -1,48 +1,51 @@
 import React from "react";
-import "./ContactFormStyles.css";
 
-import { useState } from "react";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+// import "./ContactFormStyles.css";
 const ContactForm = () => {
-  const [contactName, setContactName] = useState("");
-  const [contactEmail, setContactEmail] = useState("");
-  const [contactMessage, setContactMessage] = useState("");
-
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(contactName, contactEmail);
-    if (contactName === "") {
-      alert("Name is a required field");
-    } else if (contactEmail === "") {
-      alert("An email address is a required field");
-    }
-    setContactName("");
-    setContactEmail("");
-  }
   return (
-    <div className="contact-form">
-      <form onSubmit={handleSubmit}>
-        <label name="contactName">Name</label>
-        <input
-          type="text"
-          placeholder="Type your name"
-          value={contactName}
-          onChange={(e) => setContactName(e.target.value)}
-        />
-        <label name="contactEmail">E-mail</label>
-        <input
-          type="email"
-          placeholder="Type your email"
-          value={contactEmail}
-          onChange={(e) => setContactEmail(e.target.value)}
-        />
-        <label>Message</label>
-        <textarea value= {contactMessage} onChange={(e) => setContactMessage(e.target.value)}
-          rows="10"
-          placeholder="Type your message inside this box"
-        ></textarea>
-        <button type="submit" className="submit-button" disabled={!contactMessage || !contactEmail || !contactEmail}>
+    <div class="container mb-3 ">
+      <h1>Contact Me</h1>
+      <form
+        target="_blank"
+        action="https://formsubmit.co/dinalo.brady@gmail.com"
+        method="POST"
+      >
+        <div class="form-group w-50 mx-auto">
+          <div class="form-row">
+            <div class="col mb-3 ">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+            <div class="col mb-3">
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+          </div>
+        </div>
+        <div class="form-group mb-3 w-50 mx-auto">
+          <textarea
+            placeholder="Your Message"
+            class="form-control"
+            name="message"
+            rows="10"
+            required
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="btn btn-lg btn-success btn-block text-white"
+        >
           Submit
         </button>
       </form>

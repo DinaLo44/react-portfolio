@@ -4,8 +4,8 @@
   font-weight: 700;
 }
 
-hr {
-  border: 10px solid white;
+.division {
+  border: 10px solid darkgreen;
 }
 
 .projects-section {
@@ -41,7 +41,6 @@ hr {
 
 button {
   border: solid darkgreen;
-  border-radius: 5px;
   padding: 5px;
   font-weight: 600;
 }
