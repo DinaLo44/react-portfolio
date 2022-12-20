@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f6216115.css",
-    "main.js": "/react-portfolio/static/js/main.4aa7fcb1.js",
+    "main.css": "/react-portfolio/static/css/main.df712f46.css",
+    "main.js": "/react-portfolio/static/js/main.c4e5f7aa.js",
     "static/media/background.jpg": "/react-portfolio/static/media/background.9b125b68a802ce1a4904.jpg",
     "static/media/myphoto.jpg": "/react-portfolio/static/media/myphoto.bc0c6c3625cf66ee6547.jpg",
     "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.701a14968cf6ed219735.png",
     "static/media/team-profile-generator.png": "/react-portfolio/static/media/team-profile-generator.1a794b78dd22d58a7051.png",
-    "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.186b17dc37ee67c9e69c.png",
-    "static/media/Dina Brady-Resume.pdf": "/react-portfolio/static/media/Dina Brady-Resume.6559399e5a7d2d7b1416.pdf",
+    "static/media/Dina Brady-Resume.pdf": "/react-portfolio/static/media/Dina Brady-Resume.ef2814e941a2edc63187.pdf",
     "static/media/NoSQL-Social-Network-API.PNG": "/react-portfolio/static/media/NoSQL-Social-Network-API.5c2e3f0f25accb512203.PNG",
     "static/media/regex-gist.png": "/react-portfolio/static/media/regex-gist.d852d66c3649cdcdfebb.png",
     "static/media/employee-tracker-app.PNG": "/react-portfolio/static/media/employee-tracker-app.b4360200af5a12e19199.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.f6216115.css.map": "/react-portfolio/static/css/main.f6216115.css.map",
-    "main.4aa7fcb1.js.map": "/react-portfolio/static/js/main.4aa7fcb1.js.map"
+    "main.df712f46.css.map": "/react-portfolio/static/css/main.df712f46.css.map",
+    "main.c4e5f7aa.js.map": "/react-portfolio/static/js/main.c4e5f7aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6216115.css",
-    "static/js/main.4aa7fcb1.js"
+    "static/css/main.df712f46.css",
+    "static/js/main.c4e5f7aa.js"
   ]
 }
