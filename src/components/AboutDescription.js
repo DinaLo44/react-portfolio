@@ -15,12 +15,12 @@ const AboutDescription = () => {
           </p>
           <br></br>
           <p>
-            I am originary from Mexico where I earned a bachelor's degree in
-            International Relations from the Autonomous University of
-            Tamaulipas. I have experience working in the diplomatic and legal
-            fields after I worked as a consular officer for 8 years at the
-            Mexican Consulate in Salt Lake City, Utah, and as an immigration
-            paralegal for almost 4 years.
+            I am an American citizen originary from Mexico where I earned a
+            bachelor's degree in International Relations from the Autonomous
+            University of Tamaulipas. I have experience working in the
+            diplomatic and legal fields after I worked as a consular officer for
+            8 years at the Mexican Consulate in Salt Lake City, Utah, and as an
+            immigration paralegal for almost 4 years.
           </p>
           <br></br>
           <p>

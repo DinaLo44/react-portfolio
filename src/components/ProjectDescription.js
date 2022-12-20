@@ -10,7 +10,7 @@ const Project = () => {
         <div className="projects-list">
           <h2>Team Profile Generator</h2>
           <br></br>
-          <div className="card">
+          <div className="card-projects">
             <img
               alt="team-profile-generator project"
               src={require("../images/team-profile-generator.png")}
@@ -31,7 +31,7 @@ const Project = () => {
         <div className="projects-list">
           <h2>NoSQL Social Network API</h2>
           <br></br>
-          <div className="card">
+          <div className="card-projects">
             <img
               alt="NoSQL-Social-Network-API project"
               src={require("../images/NoSQL-Social-Network-API.PNG")}
@@ -52,7 +52,7 @@ const Project = () => {
         <div className="projects-list">
           <h2>Employee Tracker App</h2>
           <br></br>
-          <div className="card">
+          <div className="card-projects">
             <img
               alt="NoSQL-Social-Network-API project"
               src={require("../images/employee-tracker-app.PNG")}
@@ -73,7 +73,7 @@ const Project = () => {
         <div className="projects-list">
           <h2>Regex GitHub Gist</h2>
           <br></br>
-          <div className="card">
+          <div className="card-projects">
             <img
               alt="Regex gist project"
               src={require("../images/regex-gist.png")}
@@ -94,7 +94,7 @@ const Project = () => {
         <div className="projects-list">
           <h2>Weather Dashboard 4 Travelers Application</h2>
           <br></br>
-          <div className="card">
+          <div className="card-projects">
             <img
               alt="Weather dashboard app screenshot"
               src={require("../images/weather-app.png")}
@@ -117,33 +117,6 @@ const Project = () => {
             </a>
           </button>
         </div>
-        <br></br>
-        <hr className="division"></hr>
-        <br></br>
-        <br></br>
-        <div className="projects-list">
-          <h2>Code Quiz JS Application</h2>
-          <br></br>
-          <div className="card">
-            <img
-              alt="Code Quiz JS app screenshot"
-              src={require("../images/code-quiz.png")}
-            ></img>
-          </div>
-          <h3>Visit the GitHub repository here:</h3>
-          <br></br>
-          <button>
-            <a href="https://github.com/DinaLo44/code-quiz-js">CLICK ON ME</a>
-          </button>
-          <br></br>
-          <br></br>
-          <h3>Visit the deployed website here:</h3>
-          <br></br>
-          <button>
-            <a href="https://dinalo44.github.io/code-quiz-js/">CLICK ON ME</a>
-          </button>
-        </div>
-        <br></br>
       </div>
     </div>
   );
