@@ -5,7 +5,6 @@ import "./index.css";
 //Added HashRouter to be able to deploy in GitHub pages
 import { HashRouter } from "react-router-dom";
 import { createRoot } from "react-dom/client";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
